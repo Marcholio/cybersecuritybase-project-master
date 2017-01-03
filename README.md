@@ -4,7 +4,7 @@ Made to demonstrate some of top-10 vulnerabilities from https://www.owasp.org/in
 
 ## How to run ##
 
-1. Clone or download the repository 
+1. Clone or download the repository
 2. Open project in NetBeans
 3. Press "Run Project"
 
@@ -46,7 +46,7 @@ Everyone can directly access adminview, which should only be accessible for admi
 
 
 ### Issue 4: Broken authentication ###
-The image deletion method is vulnerable as the server doesn't check if user has rights to delete that particular image.
+The admin credentials are vulnerable to online cracking.
 
 1. Browse to http://127.0.0.1:8080/login
 2. Try to guess the admin credentials (hint: password is same as username with three numbers at the end)
