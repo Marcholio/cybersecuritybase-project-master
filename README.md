@@ -14,6 +14,7 @@ Made to demonstrate some of top-10 vulnerabilities from https://www.owasp.org/in
 Application is vulnerable to csrf attacks.
 
 1. Make a POST-request with tool of your choosing (eg. OWASP ZAP)
+
 POST http://localhost:8080/form HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
 Pragma: no-cache
